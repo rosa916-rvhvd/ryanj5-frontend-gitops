@@ -1,0 +1,15 @@
+app:
+  name: ryanj5-poi-map-app
+  namespace: ryanj5
+  cluster: .apps.rosa916.9nln.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/rosa916-rvhvd/ryanj5-frontend
+  org: rosa916-rvhvd
+  name: ryanj5-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj5/poi-map-app
+  tag: latest
